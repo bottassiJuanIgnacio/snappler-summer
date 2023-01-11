@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #404040;
+}
+p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+header{
+    background-color: #44586a;
+    width: 70%;
+    margin: auto;
+}
+header nav li{
+    display: flex;
+    justify-content: center;
+
+}
+header nav li ul{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+body{
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
+.responsive_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+#datos{
+    width: 70%;
+    background-color: whitesmoke;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+}
+li ol, li ul, span{
+    padding: 10px;
+    padding-left: 15px;
+}
+h1, h2, h3, h4, p{
+    padding: 10px;
+}
+h1{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 4rem;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    color: #44586a;
+}
+main .sobreMi h2{
+    color: whitesmoke;
+    text-decoration: none;
+}
+h2{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+}
+.responsiveImg{
+    display: flex;
+    width: 40%;
+    height: 50vh;
+}
+.datos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+i{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.divDatos{
+    padding: 15px;
+    width: 50%;
+}
+.educacion{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.sobreMi{
+    width: 40%;
+    background-color: #44586a;
+}
+
+
+/* Canva */
+.responsiveImgCanva{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
