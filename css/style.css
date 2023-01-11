@@ -15,12 +15,12 @@ header{
     width: 70%;
     margin: auto;
 }
-header nav li{
+header nav ul{
     display: flex;
     justify-content: center;
 
 }
-header nav li ul{
+header nav ul li{
     display: flex;
     justify-content: center;
     color: whitesmoke;
@@ -42,10 +42,14 @@ body{
     background-color: whitesmoke;
     margin: auto;
 }
-li{
+ol{
+    display: flex;
+    flex-direction: column;
+}
+ol, ul{
     list-style-type: none;
 }
-li ol, li ul, span{
+ol li, ul li, span{
     padding: 10px;
     padding-left: 15px;
 }
